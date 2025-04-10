@@ -4,11 +4,14 @@
     font-family: "Feather Bold";
   }
 
-.navbar{
+.flex{
   display: flex;
+}
+
+.navbar{
   justify-content: space-around;
   padding: 5px;
-  background: white;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -21,7 +24,6 @@
 }
 
 .navleft{
-  display: flex;
   align-items: center;
 }
 .navleft a{
@@ -31,7 +33,6 @@
 }
 
 .navright{
-  display: flex;
   align-items: center;
 }
 
@@ -43,7 +44,6 @@
 }
 
 .gsbox{
-  display: flex;
   justify-content: center;
   align-content: center;
   margin: 250px;
@@ -55,7 +55,6 @@
   text-decoration: none;
   width: 300px;
   height: 40px;
-  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
@@ -74,4 +73,31 @@
   border-bottom: 3px solid rgb(202, 202, 202);
   border-left: 1px solid rgb(202, 202, 202);
   border-right: 1px solid rgb(202, 202, 202);
+}
+
+.lb-main{
+  justify-content: center;
+  border: 1.7px solid rgb(202, 202, 202);
+
+}
+.lb-inside{
+  height: 60px;
+  padding: 5px;
+  width: 30%;
+  background-color: white;
+}
+
+.overflow {
+  gap: 40px;
+  overflow-x: scroll;
+}
+
+.flag{
+  height: 30px;
+  width: 40px;
+}
+.flag-font{
+  font-size: small;
+  text-decoration: none;
+  color: rgb(122, 122, 122);
 }
