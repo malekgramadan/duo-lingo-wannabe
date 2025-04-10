@@ -41,3 +41,37 @@
   text-decoration: none;
   color: rgb(177, 177, 177);
 }
+
+.gsbox{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 300px;
+}
+
+.gsbuttons{
+  margin: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.gsbutton1{
+  background-color: limegreen;
+  color: white;
+  border-bottom: 3px solid green;
+}
+
+.gsbutton2{
+  background-color: white;
+  color: rgb(0, 153, 255); 
+  border-top: 1px solid rgb(202, 202, 202);
+  border-bottom: 3px solid rgb(202, 202, 202);
+  border-left: 1px solid rgb(202, 202, 202);
+  border-right: 1px solid rgb(202, 202, 202);
+}
